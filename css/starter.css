@@ -170,6 +170,11 @@ header {
   justify-content: center;
 }
 
+#image1, #image2, #image3, #image4, #image5 {
+  width: 100%;
+}
+
+
 /* features for desktop view */
 @media only screen and (min-width: 700px) {
   #logo {
@@ -202,5 +207,15 @@ header {
 
   .card{
     width:300px;
+  }
+
+  #image1, #image2, #image3, #image4, #image5 {
+    width: 300px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #logo {
+    animation: none;
   }
 }
